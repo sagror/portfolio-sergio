@@ -16,7 +16,7 @@ const App = () => {
                         <a href={`${process.env.PUBLIC_URL}/`}>Home</a>
                         <a href={`${process.env.PUBLIC_URL}/about`}>About</a>
                         <a href={`https://sagror.github.io/portfolio-sergio/projects`}>Projects</a>
-                        <a href={`${process.env.PUBLIC_URL}/contact`}>Contact</a>
+                        <a href={`${process.env.PUBLIC_URL}/`}>Contact</a>
                     </nav>
                 </header>
                 <main>
