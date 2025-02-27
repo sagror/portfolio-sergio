@@ -8,15 +8,15 @@ import './styles/App.css';
 
 const App = () => {
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <div className="App">
                 <header className="header">
                     <h1>Sergio Guerra - Portfolio</h1>
                     <nav>
-                        <a href="/">Home</a>
-                        <a href="/about">About</a>
-                        <a href="/projects">Projects</a>
-                        <a href="/contact">Contact</a>
+                        <a href={`${process.env.PUBLIC_URL}/`}>Home</a>
+                        <a href={`${process.env.PUBLIC_URL}/about`}>About</a>
+                        <a href={`${process.env.PUBLIC_URL}/projects`}>Projects</a>
+                        <a href={`${process.env.PUBLIC_URL}/contact`}>Contact</a>
                     </nav>
                 </header>
                 <main>
