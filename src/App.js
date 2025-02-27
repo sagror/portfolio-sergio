@@ -8,23 +8,23 @@ import './styles/App.css';
 
 const App = () => {
     return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
             <div className="App">
                 <header className="header">
                     <h1>Sergio Guerra - Portfolio</h1>
                     <nav>
-                        <a href={`${process.env.PUBLIC_URL}/`}>Home</a>
-                        <a href={`${process.env.PUBLIC_URL}/about`}>About</a>
-                        <a href={`https://sagror.github.io/portfolio-sergio/projects`}>Projects</a>
-                        <a href={`${process.env.PUBLIC_URL}/`}>Contact</a>
+                        <a href="/portfolio-sergio/">Home</a>
+                        <a href="/portfolio-sergio/about">About</a>
+                        <a href="/portfolio-sergio/projects">Projects</a>
+                        <a href="/portfolio-sergio/contact">Contact</a>
                     </nav>
                 </header>
                 <main>
                     <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="https://sagror.github.io/portfolio-sergio/about" element={<About />} />
+                        <Route path="/portfolio-sergio/" element={<Home />} />
+                        <Route path="/portfolio-sergio/about" element={<About />} />
                         <Route path="/portfolio-sergio/projects" element={<Projects />} />
-                        <Route path="/" element={<Contact />} />
+                        <Route path="/portfolio-sergio/contact" element={<Contact />} />
                     </Routes>
                 </main>
             </div>
