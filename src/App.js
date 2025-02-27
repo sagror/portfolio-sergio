@@ -22,7 +22,7 @@ const App = () => {
                 <main>
                     <Routes>
                         <Route path="/" element={<Home />} />
-                        <Route path="/portfolio-sergio/about" element={<About />} />
+                        <Route path="https://sagror.github.io/portfolio-sergio/about" element={<About />} />
                         <Route path="/portfolio-sergio/projects" element={<Projects />} />
                         <Route path="/portfolio-sergio/contact" element={<Contact />} />
                     </Routes>
