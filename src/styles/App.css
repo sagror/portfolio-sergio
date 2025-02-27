@@ -1,0 +1,118 @@
+.App {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 1.6;
+}
+.header {
+  background-color: #2c2c2c;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #f4a261;
+  font-weight: bold;
+}
+nav a {
+  color: #b0b0b0;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #f4a261;
+}
+main {
+  padding: 40px 20px;
+  min-height: calc(100vh - 80px);
+}
+.section {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  background-color: #2e2e2e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.section h2, .section h3 {
+  font-size: 24px;
+  color: #f4a261;
+  margin-bottom: 20px;
+}
+.about img {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #f4a261;
+  margin-bottom: 20px;
+}
+.about p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.skill-button {
+  background-color: #2e2e2e;
+  border: 2px solid #ff6f91;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: default;
+}
+.skill-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px rgba(255, 111, 145, 0.5);
+}
+.projects .project-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #333;
+  border-radius: 8px;
+  border: 1px solid #444;
+  transition: transform 0.3s;
+}
+.projects .project-item:hover {
+  transform: scale(1.02);
+}
+.projects h3 {
+  font-size: 20px;
+  color: #f4a261;
+  margin-bottom: 10px;
+}
+.projects p {
+  font-size: 14px;
+  color: #ccc;
+}
+.projects img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.contact p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+a {
+  color: #f4a261;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
